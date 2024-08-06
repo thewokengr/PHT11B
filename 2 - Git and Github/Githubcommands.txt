@@ -1,0 +1,41 @@
+# === Configuring Git ===
+git config --global user.name "username"
+git config --global user.email "email"
+
+- Check if configured correctly
+git config user.name
+git config user.email
+
+- Initialize Git Repository 
+git init
+
+=== Git Three Stages ===
+- Check the status of our files
+git status
+
+- Add  the files into the staging area 
+git add .
+git add [filename.ext]
+
+- Create a commit
+git commit -m "This is your message / description of the changes you made" 
+
+=== View  the history of commits ===
+git log --oneline (history of commits)
+git log (more detailed)
+
+- Create a branch
+git branch (branch name)
+
+- Show the current branches
+git branch -ad
+
+- Switching from one branch to another
+git switch (brach name)
+
+- Merge created branch to the main branch 
+git merge [branch name]
+
+- Deleting branches
+git branch -d [branch name]
+
